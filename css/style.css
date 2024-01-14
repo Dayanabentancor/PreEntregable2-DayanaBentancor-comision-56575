@@ -1,0 +1,90 @@
+/*ARCHIVO INDEX*/
+
+/*cabecera*/
+header img{
+    width: 60px;
+   display: flex;
+   justify-self: left;
+   
+}
+img:hover{
+    opacity: 50%;
+}
+header{
+    height: 40
+    px;
+    display: flex;
+    justify-content: left;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+   
+
+header nav ul{
+     list-style: none;
+    display: flex;
+
+}
+header nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+   font-size: 12px;
+    margin: 5px;
+}
+header nav ul li a:hover{
+    color: #A2BDA2;
+    margin: 15px;
+}
+
+
+h1{
+    color: #f3efe3;
+    text-align: center;
+    font-size: 160%;
+  background-image: url(../elementos/foto-bosque.jpeg);
+ font-family: 'Ubuntu Condensed', sans-serif;;
+
+}
+body{
+    background-color: #F0EBD6;
+}
+
+/* tarejetas */
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  margin: 100px;
+    padding-left: 90px;
+}
+
+section .card{
+    margin: 30px;
+}
+ 
+ /*QUIENES SOMOS*/
+
+
+ .bg-coder{
+    color: #F0EBD6;
+ }
+
+ .descriptivo{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 35px;
+ }
+
+ /*UBICANOS*/
+
+ .donde-estamos{
+    padding-top: 180px;
+    padding-inline: 100px;
+    text-align: center;
+ }
+
+ 
+
+
