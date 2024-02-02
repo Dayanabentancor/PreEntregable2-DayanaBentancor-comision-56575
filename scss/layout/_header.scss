@@ -1,0 +1,27 @@
+.header-1{
+    height: 80px;
+    display: flex;
+    justify-content: left;
+    justify-content: space-around;
+    align-items: center;
+
+    img{ 
+        width: 80px;
+       display: flex;
+       justify-self: left;
+       
+       &:hover{
+        opacity: 50%;
+       }
+       
+       
+    }
+   .navbar-nav{
+    a{
+        &:hover{
+            color:#A2BDA2;
+        }
+    }
+   }
+}
+   

@@ -1,0 +1,42 @@
+.header-1{
+    height: 80px;
+    display: flex;
+    justify-content: left;
+    justify-content: space-around;
+    align-items: center;
+
+    img{ 
+        width: 80px;
+       display: flex;
+       justify-self: left;
+       
+       &:hover{
+        opacity: 50%;
+       }
+       
+       
+    }
+   .navbar-nav{
+    a{
+        &:hover{
+            color:#A2BDA2;
+        }
+    }
+   }
+}
+   
+.header-2{
+    @extend.header-1
+}
+
+.header-3{
+    @extend.header-1
+}
+
+.header-4{
+    @extend.header-1
+}
+
+.header-5{
+    @extend.header-1
+}

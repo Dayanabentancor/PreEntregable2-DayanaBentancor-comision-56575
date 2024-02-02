@@ -1,109 +1,102 @@
-/*ARCHIVO INDEX*/
-@media screen and (max-width:370px){
-    body{
-        text-align: center;
-        align-items: center;
-    }
+.header-1, .header-5, .header-4, .header-3, .header-2 {
+  height: 80px;
+  display: flex;
+  justify-content: left;
+  justify-content: space-around;
+  align-items: center;
 }
-/*cabecera*/
-header img{ 
-    width: 70px;
-   display: flex;
-   justify-self: left;
-   
-   
+.header-1 img, .header-5 img, .header-4 img, .header-3 img, .header-2 img {
+  width: 80px;
+  display: flex;
+  justify-self: left;
 }
-img:hover{
-    opacity: 50%;
+.header-1 img:hover, .header-5 img:hover, .header-4 img:hover, .header-3 img:hover, .header-2 img:hover {
+  opacity: 50%;
 }
-header{
-    height: 70px;
-    display: flex;
-    justify-content: left;
-    justify-content: space-around;
-    align-items: center;
-   
+.header-1 .navbar-nav a:hover, .header-5 .navbar-nav a:hover, .header-4 .navbar-nav a:hover, .header-3 .navbar-nav a:hover, .header-2 .navbar-nav a:hover {
+  color: #A2BDA2;
 }
-   
 
-/* header nav ul{
-     list-style: none;
-    display: flex;
-
+body {
+  background-color: #F0EBD6;
 }
-header nav ul li a{
-    text-decoration: none;
-    color: black;
-    font-family: Arial, Helvetica, sans-serif;
-   font-size: 12px;
-    margin: 5px;
+
+.bg-coder {
+  color: #F0EBD6;
 }
-header nav ul li a:hover{
-    color: #A2BDA2;
-    margin: 15px;
-} */
 
-
-h1{
-    color: #f3efe3;
-    text-align: center;
-    font-size: 160%;
+.container-h1 {
+  height: 85px;
   background-image: url(../elementos/foto-bosque.jpeg);
- font-family: 'Ubuntu Condensed', sans-serif;;
-
 }
-body{
-    background-color: #F0EBD6;
+.container-h1 h1 {
+  color: #f3efe3;
+  text-align: center;
+  font-size: 160%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding-top: 10px;
 }
 
-/* tarejetas */
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 100px;
+  padding-left: 90px;
+  flex-direction: row;
+}
+section .card {
+  margin: 30px;
+}
 
-section{
+.descriptivo {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 35px;
+}
+
+.redes h3 {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+}
+
+.donde-estamos {
+  padding-top: 180px;
+  padding-inline: 100px;
+  text-align: center;
+}
+
+@media screen and (max-width: 320px) {
+  body {
+    text-align: center;
+    align-items: center;
+  }
+  body .container-h1 {
+    height: 110px;
+  }
+  body .tarjetas-link {
     display: flex;
     justify-content: center;
-    align-items: center;
-  margin: 100px;
-    padding-left: 90px;
+    flex-direction: column;
+  }
+}
+.header-1, .header-5, .header-4, .header-3, .header-2 {
+  height: 80px;
+  display: flex;
+  justify-content: left;
+  justify-content: space-around;
+  align-items: center;
+}
+.header-1 img, .header-5 img, .header-4 img, .header-3 img, .header-2 img {
+  width: 80px;
+  display: flex;
+  justify-self: left;
+}
+.header-1 img:hover, .header-5 img:hover, .header-4 img:hover, .header-3 img:hover, .header-2 img:hover {
+  opacity: 50%;
+}
+.header-1 .navbar-nav a:hover, .header-5 .navbar-nav a:hover, .header-4 .navbar-nav a:hover, .header-3 .navbar-nav a:hover, .header-2 .navbar-nav a:hover {
+  color: #A2BDA2;
 }
 
-section .card{
-    margin: 30px;
-}
- 
- /*QUIENES SOMOS*/
-
-
- .bg-coder{
-    color: #F0EBD6;
- }
-
- .descriptivo{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 35px;
- }
-
- /*UBICANOS*/
-
- .donde-estamos{
-    padding-top: 180px;
-    padding-inline: 100px;
-    text-align: center;
- }
-
-
- /* CONTACTANOS*/
-
- 
-.redes h3 {
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 25px;
-
-}
-
-
- 
-
- 
-
-
+/*# sourceMappingURL=style.css.map */
